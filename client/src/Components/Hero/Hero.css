@@ -1,0 +1,74 @@
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+.hero-container{
+   justify-content: space-between;
+   align-items: flex-end;
+
+/*left side of hero*/
+.hero-left{
+    gap: 3rem;
+}
+.hero-title{
+    position: relative;
+    z-index: 1;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+}
+.org-circle{
+    height: 4rem;
+    width: 4rem;
+    background:#36aae2;
+    border-radius: 100%;
+    position:absolute;
+    right: 50%;
+    top: -14%;
+    z-index: -1;
+}
+
+.search-bar{
+    background-color: white;
+    border-radius: 20px;
+    width:80%;
+    border: 4px solid rgba(120,120,120,0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    
+}
+
+.search-bar>input{
+    border: none;
+    outline: none;
+}
+
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+}
+
+
+/*right side of hero*/
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255,255,255,0.12);
+}
+.image-container>img{
+    width: 100%;
+    height: 100%;
+}
