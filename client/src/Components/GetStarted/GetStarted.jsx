@@ -3,7 +3,13 @@ import './GetStarted.css'
 
 const GetStarted = () => {
   return (
-    <div>GetStarted</div>
+    <section className="gt-wrapper">
+      <div className="gt-container paddings innerWidth">
+        <div className="flexColCenter inner-container">
+          
+        </div>
+      </div>
+    </section>
   )
 }
 
