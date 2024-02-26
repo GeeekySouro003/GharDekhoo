@@ -5,7 +5,7 @@
     z-index: 1;
 }
 .hero-container{
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: flex-end;
 
 /*left side of hero*/
@@ -71,4 +71,34 @@
 .image-container>img{
     width: 100%;
     height: 100%;
+}
+
+@media(max-width:640px) {
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width: 95%;
+        height: 35rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .stats>:nth-child(1)
+    {
+        font-size: 1.5rem;
+    }
+    .stats>:nth-child(2)
+    {
+        font-size: 0.8rem;
+    }
+    
+    .hero-right{
+        width: 100%;
+    }
 }

@@ -1,0 +1,73 @@
+.f-wrapper{
+    width: 100%;
+    background: #1e88e5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.f-container{
+    padding: 2rem;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 30px;
+    margin-left: 0;
+
+    
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+.f-right{
+    margin-right: -368px;
+}
+
+.f-text{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.f1-text{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.f-center{
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+
+.email{
+    position: relative;
+    display: flex;
+    height: 2.8rem;
+    width: 200px;
+    min-width: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff ;
+    border-radius: 10px;
+    border: #1e88e5 solid 2px;
+}
+
+@media(max-width:768px)
+{
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+}

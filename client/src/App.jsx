@@ -6,6 +6,7 @@ import Properties from "./Components/Properties/Properties.jsx";
 import Values from "./Components/Values/Values.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import GetStarted from "./Components/GetStarted/GetStarted.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 function App()
 {
   return(
@@ -13,13 +14,14 @@ function App()
       <div>
         <div className="white-gradient"/>
       <Header />
-      <Hero/>
+      <Hero/> 
       </div>
       <Companies/>
-      <Properties/>
-      <Values/>
+       <Properties/>
+       <Values/>
       <Contact/>
       <GetStarted/>
+     <Footer/>   
     </div>
   ); 
   
