@@ -92,6 +92,10 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+.wrapper{
+  background: white;
+}
 button {
   border: none;
   color: #fff;

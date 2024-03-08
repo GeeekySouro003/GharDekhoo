@@ -5,45 +5,6 @@
 .p-head{
     margin-bottom: 2rem;
 }
-.p-card{
-    gap:0.8rem;
-    padding: 1rem;
-    border-radius: 10px;
-    max-width: max-content;
-    margin:auto;
-    transition: all 450ms ease-in;
-}
-.p-card>img{
-    width: 100%;
-    max-width: 17rem;
-}
-.p-card>:nth-child(2){
-
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.p-card>:nth-child(3)
-{
-    font-size: 1.8rem;
-
-}
-.p-card>:nth-child(4)
-{font-size: 0.8rem;
-    width:15rem;
-}
-
-.p-card:hover{
-    scale:1.025;
-    cursor: pointer;
-    background: linear-gradient(
-        180deg,
-        rgba(255,255,255,0) 0%,
-        rgba(56, 93, 240, 0.46) 217.91%
-    );
-
-    box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21);
-    border-radius: 20px;
-}
 
 .swiper-horizontal{
     overflow: visible;

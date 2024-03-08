@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import { GiHamburgerMenu } from "react-icons/gi";
 import OutsideClickHandler from 'react-outside-click-handler';
+import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
 
   const[menuOpen,setmenuOpen]=useState(false)
@@ -15,7 +16,11 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
+        <Link to="/">
+
         <img src="./logo new.png" alt="Logo" width={100} />
+        </Link>
+     
         <OutsideClickHandler
         
         onOutsideClick={() =>
@@ -29,14 +34,15 @@ const Header = () => {
         style={getmenuStyles(menuOpen)}
         >
 
-          
-          <a href="">Properties</a>
-          <a href="">Our Value</a>
-          <a href="">Contact Us</a>
-          <a href="">Get Started</a>
+
+          <NavLink to="/properties">Properties</NavLink>
+         
+        
+          <a href="mailto:dgsouro77@gmail.com">Contact</a>
           <button className="button">
-          <a href="">Contact</a>
+            Log In
           </button>
+          
           
         </div>
         </OutsideClickHandler>

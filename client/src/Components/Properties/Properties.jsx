@@ -4,6 +4,7 @@ import "swiper/css";
 import './Properties.css';
 import data from '../../utils/slider.json';
 import { Slidersettings } from '../../utils/common.js';
+import PropertyCard from '../PropertyCard/PropertyCard.jsx';
 const Properties = () => {
   return (
     <section className="p-wrapper">
@@ -16,16 +17,7 @@ const Properties = () => {
             <SliderButtons/>
           {data.map((card, i) => (
             <SwiperSlide key={i}>
-              <div className="flexColCenter p-card">
-                <img src={card.image} alt='home' />
-                <span className="secondaryText p-price">
-                  <span style={{ color: "orange" }}>₹</span>
-                  <span>{card.price}</span>
-                </span>
-
-                <span className='primaryText'>{card.name}</span>
-                <span className='secondaryText'>{card.detail}</span>
-              </div>
+              <PropertyCard card={card}/>
             </SwiperSlide>
           ))}
         </Swiper>
