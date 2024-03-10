@@ -18,17 +18,17 @@
     width: 100%;
     max-width: 17rem;
 }
-.p-card>:nth-child(2){
+.p-card>:nth-child(3){
 
     font-size: 1.5rem;
     font-weight: 600;
 }
-.p-card>:nth-child(3)
+.p-card>:nth-child(4)
 {
     font-size: 1.8rem;
 
 }
-.p-card>:nth-child(4)
+.p-card>:nth-child(5)
 {font-size: 0.8rem;
     width:15rem;
 }
