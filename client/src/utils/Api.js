@@ -10,7 +10,7 @@ export const api = axios.create({
 
 export const getAllProperties = async() => {
     try{
-        const response = await api.get('residency/allresidency',{
+        const response = await api.get('residency/allresidency',{    // /api/residency/allresidency
             timeout:10*1000,
         });
 
